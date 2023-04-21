@@ -1,0 +1,115 @@
+Create Database Zorrito
+
+Use Zorrito
+
+Create Table Articulos
+(
+CodigoArticulo nvarchar(50) not null Primary Key,
+Nombre nvarchar(50),
+Marca nvarchar(50),
+Observaciones  nvarchar(150),
+BajaLogica bit,
+)
+
+Create Table Compras
+(
+IdCompra int not null Identity(1,1) Primary Key,
+CodigoArticulo nvarchar(50),
+Fecha date,
+Marca nvarchar(50),
+Nombre nvarchar(50),
+Observaciones nvarchar(150),
+CantidadPorBulto integer,
+PrecioBulto Decimal(18,2),
+PrecioUnitario Decimal(18,2),
+BajaLogica bit,
+
+Constraint FK_Compras_CodigoArticulo Foreign Key(CodigoArticulo) references Articulos(CodigoArticulo)
+)
+
+Create Table Productos
+(
+IdProducto int not null Identity(1,1) Primary Key,
+Nombre nvarchar(50),
+PrecioVenta decimal(18,2),
+Descripcion nvarchar(150),
+BajaLogica bit,
+)
+
+Create Table ComposicionProductos
+(
+IdComposicionProducto int not null Identity(1,1) Primary Key,
+IdProducto int,
+CodigoArticulo nvarchar(50),
+CantidadMateriaPrima decimal (18,2),
+Costo decimal (18,2),
+CostoTotal decimal (18,2),
+BajaLogica bit,
+
+Constraint FK_ComposicionProductos_IdProducto Foreign Key(IdProducto) references Productos(IdProducto),
+Constraint FK_ComposicionProductos_CodigoArticulo Foreign Key(CodigoArticulo) references Articulos(CodigoArticulo),
+)
+
+Create Table Clientes
+(
+IdCliente int not null Identity(1,1) Primary Key,
+Nombre nvarchar(50),
+Apellido nvarchar(50),
+NombreNinoNina nvarchar(50),
+FechaCumpleanos date,
+AnosCumplidos int,
+Localidad nvarchar(50),
+Celular Bigint,
+FechaAlta date,
+Comentarios nvarchar(150),
+BajaLogica bit,
+)
+
+Create Table Agenda
+(
+IdAgenda int not null Identity(1,1) Primary Key,
+NombreCliente nvarchar(100),
+Tematica nvarchar(200),
+FechaEntrega date,
+Pedido nvarchar(300),
+Total decimal (18,2),
+Importe decimal (18,2),
+Faltante decimal (18,2),
+Comentarios nvarchar(200),
+BajaLogica bit,
+)
+
+Create table Ventas
+(
+IdVenta int not null Identity(1,1) Primary Key,
+IdCliente int,
+Fecha date,
+BajaLogica bit,
+
+Constraint FK_Ventas_IdCliente Foreign Key(IdCliente) references Clientes(IdCliente),
+)
+
+Create table DetalleVentas
+(
+IdDetalleVenta int not null Identity(1,1) Primary Key,
+IdVenta int,
+Idproducto int,
+Cantidad int,
+Total decimal (18,2),
+BajaLogica bit,
+
+Constraint FK_DetalleVentas_IdVenta Foreign Key(IdVenta) references Ventas(IdVenta),
+Constraint FK_DetalleVentas_Idproducto Foreign Key(Idproducto) references Productos(Idproducto),
+)
+
+Create Table Stock
+( 
+CodigoArticulo nvarchar(50) not null Primary Key,
+Nombre nvarchar(50),
+Marca nvarchar(50),
+IngresoStock decimal,
+EgresoStock decimal,
+StockActual decimal,
+
+Constraint FK_Stock_CodigoArticulo Foreign Key(CodigoArticulo) references Articulos(CodigoArticulo),
+)

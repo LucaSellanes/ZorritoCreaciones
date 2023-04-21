@@ -1,0 +1,15 @@
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeNegocios.dll
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeNegocios.pdb
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeNegocios.xml
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeDatos.dll
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeEntidades.dll
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeDatos.pdb
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeDatos.xml
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeEntidades.pdb
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\bin\Debug\CapaDeEntidades.xml
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\obj\Debug\CapaDeNegocios.vbprojResolveAssemblyReference.cache
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\obj\Debug\CapaDeNegocios.Resources.resources
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\obj\Debug\CapaDeNegocios.vbproj.GenerateResource.Cache
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\obj\Debug\CapaDeNegocios.dll
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\obj\Debug\CapaDeNegocios.xml
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeNegocios\obj\Debug\CapaDeNegocios.pdb

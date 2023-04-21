@@ -1,0 +1,8 @@
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\bin\Debug\CapaDeEntidades.dll
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\bin\Debug\CapaDeEntidades.pdb
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\bin\Debug\CapaDeEntidades.xml
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\obj\Debug\CapaDeEntidades.Resources.resources
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\obj\Debug\CapaDeEntidades.vbproj.GenerateResource.Cache
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\obj\Debug\CapaDeEntidades.dll
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\obj\Debug\CapaDeEntidades.xml
+C:\Users\Luca\documents\visual studio 2010\Projects\ZorrittoCreaciones\CapaDeEntidades\obj\Debug\CapaDeEntidades.pdb
